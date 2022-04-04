@@ -1,0 +1,84 @@
+.process {
+  max-width: 1400px;
+}
+.title {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    margin: 0 auto 34px;
+}
+
+.process-line { 
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 0 auto 34px;
+}
+
+.process-description { 
+    max-width: 1400 px;
+    text-align: center;
+    margin: 0 auto 68px;
+}
+
+  .process-description p{ 
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+  }
+
+ .wrap { 
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+ }
+
+.card-img { 
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px;
+  }
+
+  .card-img img {
+    width: 23px;
+    height: 30px;
+  }
+
+.card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+.card-text {
+    text-align: center;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
