@@ -1,0 +1,56 @@
+.pricing { 
+    background-color:#F5F5F5;
+}
+
+#pricing-description{
+    margin-bottom: 62px;
+}
+
+.card-pricing { 
+    width: 340px;
+    text-align: center;
+}
+
+.card-pricing-tarif { 
+    background: #333333;
+    color: #FFFFFF;
+    line-height: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1px;    
+}
+
+.card-pricing-cost {
+    background: #333333;
+    color: #FFFFFF;
+    line-height: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 2px;
+    }
+
+.price-description {
+    background: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.card-pricing-text { 
+    background: #FFFFFF;
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 4px;    
+}

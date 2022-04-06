@@ -2,7 +2,7 @@
 @import url("../css/cdn.css");
 @import url("../css/process.css");
 @import url("../css/card.css");
-
+@import url("../css/pricing.css");
 
 *{  margin: 0;
     padding: 0;
@@ -15,14 +15,53 @@ html {
     font-size: 16px;
 }
 
+section {
+    max-width: 100%;
+    padding: 80px 0;
+}
+
 .conteiner {
     max-width: 1170px;
-    margin: 80px auto;
+    padding: 80px auto; 
+    margin: auto;
 }
 
-.section {
+.title {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    margin: 0 auto 34px;
+}
+
+.wrap { 
     max-width: 1170px;
-    max-height: 600px;
-    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.line { 
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 0 auto 34px;
+}
+
+  .description{
+    margin-bottom: 68px;
+  }
+
+  .description p{
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: center;
+    }
