@@ -1,0 +1,75 @@
+.card__customer {
+    width: 298px;
+    margin: 0 15px;
+}
+.card__customer-text {
+    margin-bottom: 22px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.card__customer-text p{
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    padding: 9px 22px 6px 23px;
+}  
+.card__customer-text::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 14px solid  #E2E2E2;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 18%;
+}
+
+.card__customer-profile {
+    display: flex;
+    justify-content: center;
+}
+.card__customer-avatar {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.card__customer-avatar img{
+    width: 100%;
+}
+
+.card__customer-description {
+    text-align: right;
+
+}
+.card__customer-name {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    
+}
+.card__customer-position {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}

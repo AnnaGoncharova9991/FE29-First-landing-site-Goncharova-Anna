@@ -1,0 +1,20 @@
+.social {
+}
+.wrap-left {max-width: 365px;
+}
+.title-social {
+}
+.social_text {
+}
+.wrap-right {
+
+}
+.social__icons {
+    width: 684px;
+}
+.social__icons__item {
+    font-size: 42px;
+}
+.social__icons__item_wifi {
+    transform: rotate(45deg);
+}
